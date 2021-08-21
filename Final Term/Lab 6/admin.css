@@ -1,0 +1,37 @@
+nav img{
+    width: 250px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
+
+nav a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #16394B;
+}
+
+.head{
+    width: 90%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #16394B;
+    font-size: 60px;
+}
+
+.admin img{
+    width: 250px;
+}
+
+.gap{
+    height: 1000px;
+}
+
+

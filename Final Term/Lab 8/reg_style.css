@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gap{
+    height: 50px;
+}
+
+
+/*navbar*/
+nav img{
+    width: 250px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
+
+nav a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #16394B;
+}
+
+
+/***********Sign Up/Sign In***************/
+
+.register-col{
+    flex-basis: 80%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.register{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #16394B;
+}
+
+.register h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.register p{
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.register input{
+    font-size: 15px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid #16394B ;
+    outline: none;
+    border-radius: 30px;
+}
+
+.radio-conatiner{
+    padding: 20px;
+}
+
+label{
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.reg-buuton{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #16394B;
+    color: #16394B;
+    border-radius: 5px;
+    padding: 2px 20px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.reg-buuton:hover{
+    border: 1px solid rgb(212, 212, 214);
+    background: rgb(212, 212, 214);
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
